@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/login_text_height"
+        android:text="User name" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="Choose a username"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/login_text_height"
+        android:layout_marginTop="@dimen/login_margin"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your email address"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/login_text_height"
+        android:layout_marginTop="@dimen/login_margin"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="Choose a password" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="fill_parent"
+		android:layout_marginLeft="@dimen/login_side_margin"
+		android:layout_marginRight="@dimen/login_side_margin"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margin"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/link_to_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/login_text_height"
+        android:layout_marginTop="@dimen/login_margin"
+        android:text="Have an account? Login here." />
+
+</LinearLayout>

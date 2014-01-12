@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Heart rate"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <ImageButton
+                    android:id="@+id/undo1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/undo" />
+
+                <ImageButton
+                    android:id="@+id/add1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/add" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/new_indicator" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/heart_rate" 
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steps"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <ImageButton
+                    android:id="@+id/undo2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/undo" />
+
+                <ImageButton
+                    android:id="@+id/add2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/add" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/new_indicator" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/steps" 
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood glucose level"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <ImageButton
+                    android:id="@+id/undo3"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/undo" />
+
+                <ImageButton
+                    android:id="@+id/add3"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@null"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/add" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/new_indicator" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/blood_sugar" 
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

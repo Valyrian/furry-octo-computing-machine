@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/login_text_height"
+        android:text="User name" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your MedApp username"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/login_margin"
+        android:text="Password" 
+        android:textSize="@dimen/login_text_height" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="fill_parent"
+		android:layout_marginLeft="@dimen/login_side_margin"
+		android:layout_marginRight="@dimen/login_side_margin"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margin"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/link_to_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/login_margin"
+        android:shadowColor="@android:color/holo_blue_bright"
+        android:text="New to MedApp? Register here."
+        android:textSize="@dimen/login_text_height" 
+        />
+
+</LinearLayout>

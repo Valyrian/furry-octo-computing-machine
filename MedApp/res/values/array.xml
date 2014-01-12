@@ -1,0 +1,42 @@
+<resources>
+    <string-array name="prescriptions">
+        <item >Abilify</item>
+        <item >Nexium</item>
+        <item >Cymbalta</item>
+        <item >Crestor</item>
+        <item >Advair Diskus</item>
+        <item >Humira</item>
+    </string-array>
+    <string-array name="events">
+        <item >H5N1 Vaccination</item>
+        <item >Polio Vaccination</item>
+        <item >Annual Checkup</item>
+    </string-array>
+    <string-array name="event_types">
+        <item >Vaccination</item>
+        <item >Checkup</item>
+        <item >Other</item>
+    </string-array>
+    <string-array name="locations">
+        <item >YTHS Otaniemi</item>
+        <item >Meilahden sairaala</item>
+    </string-array>
+    <string-array name="actual_event_types">
+        <item >Vaccination</item>
+        <item >Vaccination</item>
+        <item >Checkup</item>
+    </string-array>
+    <string-array name="hospitals">
+        <item >YTHS Otaniemi</item>
+        <item >Meilahden sairaala</item>
+        <item >Meilahden sairaala</item>
+    </string-array>
+    <string-array name="dates">
+        <item >2013–12–03</item>
+        <item >2013–05–26</item>
+        <item >2013–01–13</item>
+        <item >2012–10–05</item>
+        <item >2012–02–04</item>
+        <item >2010–05–20</item>
+    </string-array>
+</resources>
